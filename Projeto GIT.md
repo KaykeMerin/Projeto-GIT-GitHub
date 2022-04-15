@@ -104,11 +104,23 @@ Oque faremos é basicamente, configurar a nossa máquina local como uma máquina
 
 `git init`
 
+Quando usamos este comando dentro de uma pasta, permitimos que o GIT comece a gerenciar e versionar o nosso código.
+
+Na primeira vez que você estiver usando o GIT, você terá que fazer algumas configurações para se registrar, já que os commits exigem um autor, faça isso com os comandos:
+
+`git config --global user.email "seu@email.com"`
+
+`git config --global user.name seuNickName`
+
 -Iniciar o versionamento
 
-`git add `
+`git add *`
 
 -Criar um commit
 
-`git commit`
+`git commit -m "comentário"`
+
+## Ciclo de vida dos arquivos no GIT
+
+### Passo a passo no clico de vida
 
