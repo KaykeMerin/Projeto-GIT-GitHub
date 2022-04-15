@@ -1,4 +1,4 @@
-# Título
+# GIT e GitHub - DIO
 
 ## Introdução ao GIT
 
@@ -166,5 +166,17 @@ Quando você adiciona um arquivo *untracked* e usa `git add`, ele é movido para
 
 ### Trabalhando com o GitHub
 
-Este será nosso *Remote Repository*, além disso, te permite trabalhar em equipe, ajudar outros DEVS em seus projetos e acima de tudo, é uma rede social.
+Além de ser nosso *Remote Repository* o GitHub também te permite trabalhar em equipe, compartilhar seus códigos, colaborar com o código de outros DEVS mas acima de tudo, é uma rede social.
 
+Primeiro, devemos criar o repositório, para isso acesse na plataforma:
+
+Perfil > Your repositories > New
+
+Lá você deve mencionar um nome configurar seu repositório.
+
+Para interligar seu repositório local com o remoto, basta copiar o caminho fornecido pelo GitHub e em seu Git Bash usar os comandos:
+`git remote add origin <link>`
+
+e para empurrar os arquivos para lá, utilize:
+
+`git push origin master`
