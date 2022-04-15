@@ -114,7 +114,7 @@ Na primeira vez que você estiver usando o GIT, você terá que fazer algumas co
 
 -Iniciar o versionamento
 
-`git add *`
+`git add`
 
 -Criar um commit
 
